@@ -3,11 +3,11 @@
 1) from terminal:
   clj -e '(println "Hello World!")'
 
-2) in repl
+2) in repl:
   clj
   (println "Hello World!")
 
-3) create hello.clj file with (println "Hello World!") and run it as script
+3) create hello.clj file with (println "Hello World!") and run it as script:
   clj hello.clj  
 
 4) create hello/src.hello.clj with:
@@ -17,9 +17,11 @@
     (println "Hello World!)) 
   && cd hello && clj -m hello
 
-5) with Leinigen
+5) with Leinigen:
   lein new app helloleiningen
+  &&
   cd helloleiningen
-  lein run
-  # or
+  &&
+  lein run\
+  or\
   clj -m helloleiningen.core
